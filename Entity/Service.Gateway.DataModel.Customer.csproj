@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Service.Gateway.DataModel.Customer</AssemblyName>
+    <RootNamespace>Service.Gateway.DataModel.Customer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataModel\Service.Gateway.DataModel.csproj" />
+    <ProjectReference Include="..\Service.Gateway.DataModel.Diagnostic\Service.Gateway.DataModel.Diagnostic.csproj" />
+    <ProjectReference Include="..\Service.Gateway.DataModel.Service\Service.Gateway.DataModel.Service.csproj" />
+  </ItemGroup>
+
+</Project>
